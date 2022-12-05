@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 export const Board = () => {
   return (
-    <div>Board will be printed out here</div>
+    <Fragment>
+
+      <div>Board will be printed out here</div>
+    </Fragment>
   )
 }

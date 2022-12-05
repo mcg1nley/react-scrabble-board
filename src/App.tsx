@@ -1,4 +1,4 @@
-import {Fragment} from 'react';
+import React, {Fragment } from 'react';
 import './App.css';
 import { CreateNewBoard } from "./components/grid/BoardCreate"
 import { Header } from "./components/layout/Header"
@@ -8,6 +8,7 @@ import { Board } from "./components/layout/Board"
 
 function App() {
   return (
+
     <Fragment>
     {/* Header */}
     <Header />
@@ -20,7 +21,9 @@ function App() {
     
 
     </Fragment>
-  );
+  )
+  
+  
 }
 
 export default App;
